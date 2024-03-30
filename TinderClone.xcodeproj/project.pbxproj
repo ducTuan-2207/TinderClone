@@ -11,6 +11,9 @@
 		229A8A652BB71BA2007961E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A642BB71BA2007961E9 /* ContentView.swift */; };
 		229A8A672BB71BA4007961E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A8A662BB71BA4007961E9 /* Assets.xcassets */; };
 		229A8A6A2BB71BA4007961E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A8A692BB71BA4007961E9 /* Preview Assets.xcassets */; };
+		229A8A772BB72A04007961E9 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A762BB72A04007961E9 /* MainTabView.swift */; };
+		229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A7D2BB7350E007961E9 /* CardView.swift */; };
+		229A8A802BB809E9007961E9 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A7F2BB809E9007961E9 /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		229A8A642BB71BA2007961E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		229A8A662BB71BA4007961E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229A8A692BB71BA4007961E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		229A8A762BB72A04007961E9 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		229A8A7D2BB7350E007961E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		229A8A7F2BB809E9007961E9 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,11 @@
 		229A8A612BB71BA2007961E9 /* TinderClone */ = {
 			isa = PBXGroup;
 			children = (
-				229A8A622BB71BA2007961E9 /* TinderCloneApp.swift */,
+				229A8A702BB72319007961E9 /* App */,
+				229A8A742BB72353007961E9 /* Utils */,
+				229A8A732BB7233C007961E9 /* Shared */,
+				229A8A722BB72330007961E9 /* Extensions */,
+				229A8A712BB72329007961E9 /* Core */,
 				229A8A642BB71BA2007961E9 /* ContentView.swift */,
 				229A8A662BB71BA4007961E9 /* Assets.xcassets */,
 				229A8A682BB71BA4007961E9 /* Preview Content */,
@@ -65,6 +75,93 @@
 				229A8A692BB71BA4007961E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		229A8A702BB72319007961E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A622BB71BA2007961E9 /* TinderCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		229A8A712BB72329007961E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A7C2BB734FE007961E9 /* Search */,
+				229A8A7B2BB734F6007961E9 /* Profile */,
+				229A8A792BB734DF007961E9 /* Card */,
+				229A8A782BB734CD007961E9 /* Message */,
+				229A8A752BB729D6007961E9 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		229A8A722BB72330007961E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		229A8A732BB7233C007961E9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		229A8A742BB72353007961E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		229A8A752BB729D6007961E9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A762BB72A04007961E9 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		229A8A782BB734CD007961E9 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		229A8A792BB734DF007961E9 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A7A2BB734E5007961E9 /* View */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		229A8A7A2BB734E5007961E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A7D2BB7350E007961E9 /* CardView.swift */,
+				229A8A7F2BB809E9007961E9 /* UserInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		229A8A7B2BB734F6007961E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		229A8A7C2BB734FE007961E9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +236,9 @@
 			files = (
 				229A8A652BB71BA2007961E9 /* ContentView.swift in Sources */,
 				229A8A632BB71BA2007961E9 /* TinderCloneApp.swift in Sources */,
+				229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */,
+				229A8A772BB72A04007961E9 /* MainTabView.swift in Sources */,
+				229A8A802BB809E9007961E9 /* UserInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
