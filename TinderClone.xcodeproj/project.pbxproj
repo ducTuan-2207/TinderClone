@@ -17,6 +17,7 @@
 		229A8A822BB9B0DB007961E9 /* SwipeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */; };
 		229A8A852BB9C2F7007961E9 /* SizeContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A842BB9C2F7007961E9 /* SizeContants.swift */; };
 		229A8A872BB9C985007961E9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */; };
+		229A8A892BB9E20F007961E9 /* ProfileNV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A882BB9E20F007961E9 /* ProfileNV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionView.swift; sourceTree = "<group>"; };
 		229A8A842BB9C2F7007961E9 /* SizeContants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeContants.swift; sourceTree = "<group>"; };
 		229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		229A8A882BB9E20F007961E9 /* ProfileNV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				229A8A7F2BB809E9007961E9 /* UserInfoView.swift */,
 				229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */,
 				229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */,
+				229A8A882BB9E20F007961E9 /* ProfileNV.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */,
 				229A8A772BB72A04007961E9 /* MainTabView.swift in Sources */,
 				229A8A802BB809E9007961E9 /* UserInfoView.swift in Sources */,
+				229A8A892BB9E20F007961E9 /* ProfileNV.swift in Sources */,
 				229A8A822BB9B0DB007961E9 /* SwipeActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
