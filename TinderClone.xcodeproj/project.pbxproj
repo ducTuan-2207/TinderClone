@@ -15,6 +15,8 @@
 		229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A7D2BB7350E007961E9 /* CardView.swift */; };
 		229A8A802BB809E9007961E9 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A7F2BB809E9007961E9 /* UserInfoView.swift */; };
 		229A8A822BB9B0DB007961E9 /* SwipeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */; };
+		229A8A852BB9C2F7007961E9 /* SizeContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A842BB9C2F7007961E9 /* SizeContants.swift */; };
+		229A8A872BB9C985007961E9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		229A8A7D2BB7350E007961E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		229A8A7F2BB809E9007961E9 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionView.swift; sourceTree = "<group>"; };
+		229A8A842BB9C2F7007961E9 /* SizeContants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeContants.swift; sourceTree = "<group>"; };
+		229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				229A8A702BB72319007961E9 /* App */,
-				229A8A742BB72353007961E9 /* Utils */,
 				229A8A732BB7233C007961E9 /* Shared */,
 				229A8A722BB72330007961E9 /* Extensions */,
 				229A8A712BB72329007961E9 /* Core */,
@@ -95,6 +98,7 @@
 				229A8A792BB734DF007961E9 /* Card */,
 				229A8A782BB734CD007961E9 /* Message */,
 				229A8A752BB729D6007961E9 /* TabBar */,
+				229A8A742BB72353007961E9 /* Utils */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -116,6 +120,7 @@
 		229A8A742BB72353007961E9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				229A8A832BB9C2CA007961E9 /* Contants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				229A8A7D2BB7350E007961E9 /* CardView.swift */,
 				229A8A7F2BB809E9007961E9 /* UserInfoView.swift */,
 				229A8A812BB9B0DB007961E9 /* SwipeActionView.swift */,
+				229A8A862BB9C985007961E9 /* ImageScrollingOverlay.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +171,14 @@
 			children = (
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		229A8A832BB9C2CA007961E9 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				229A8A842BB9C2F7007961E9 /* SizeContants.swift */,
+			);
+			path = Contants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229A8A872BB9C985007961E9 /* ImageScrollingOverlay.swift in Sources */,
+				229A8A852BB9C2F7007961E9 /* SizeContants.swift in Sources */,
 				229A8A652BB71BA2007961E9 /* ContentView.swift in Sources */,
 				229A8A632BB71BA2007961E9 /* TinderCloneApp.swift in Sources */,
 				229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */,
