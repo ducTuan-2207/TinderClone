@@ -12,7 +12,7 @@ struct SwipeActionView: View {
     let screenCutOff: CGFloat
     var body: some View {
         HStack {
-            Text("Like")
+            Text("Thích")
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundStyle(.green)
@@ -24,7 +24,7 @@ struct SwipeActionView: View {
                 .rotationEffect(.degrees(-45))
                 .opacity(Double(xOffset/screenCutOff))
             Spacer()
-            Text("NOPE")
+            Text("Không")
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundStyle(.red)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221D55272BBAA46C000BE299 /* Infomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D55262BBAA46C000BE299 /* Infomation.swift */; };
 		229A8A632BB71BA2007961E9 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A622BB71BA2007961E9 /* TinderCloneApp.swift */; };
 		229A8A652BB71BA2007961E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A8A642BB71BA2007961E9 /* ContentView.swift */; };
 		229A8A672BB71BA4007961E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229A8A662BB71BA4007961E9 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221D55262BBAA46C000BE299 /* Infomation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infomation.swift; sourceTree = "<group>"; };
 		229A8A5F2BB71BA2007961E9 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229A8A622BB71BA2007961E9 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
 		229A8A642BB71BA2007961E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221D55252BBAA44A000BE299 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				221D55262BBAA46C000BE299 /* Infomation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		229A8A562BB71BA2007961E9 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		229A8A612BB71BA2007961E9 /* TinderClone */ = {
 			isa = PBXGroup;
 			children = (
+				221D55252BBAA44A000BE299 /* Models */,
 				229A8A702BB72319007961E9 /* App */,
 				229A8A732BB7233C007961E9 /* Shared */,
 				229A8A722BB72330007961E9 /* Extensions */,
@@ -261,6 +272,7 @@
 				229A8A7E2BB7350E007961E9 /* CardView.swift in Sources */,
 				229A8A772BB72A04007961E9 /* MainTabView.swift in Sources */,
 				229A8A802BB809E9007961E9 /* UserInfoView.swift in Sources */,
+				221D55272BBAA46C000BE299 /* Infomation.swift in Sources */,
 				229A8A892BB9E20F007961E9 /* ProfileNV.swift in Sources */,
 				229A8A822BB9B0DB007961E9 /* SwipeActionView.swift in Sources */,
 			);
